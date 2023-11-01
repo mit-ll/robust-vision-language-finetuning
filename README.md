@@ -10,8 +10,8 @@ Delivered to the U.S. Government with Unlimited Rights, as defined in DFARS Part
 
 -----------------------------------------------
 
-# Foundation Models for Domain Generalization
-Adaptation of vision-language and supervised models for domain generalization
+# Robust Fine-Tuning of Vision-Language Models for Domain Generalization
+This repository contains code for the IEEE 2023 paper Robust Fine-Tuning of Vision-Language Models for Domain Generalization, by Kevin Vogt-Lowell, Noah Lee, Theodoros Tsiligkaridis, and Marc Vaillant.
 
 ## Requirements
 Experiments were run on an Anaconda 2022a environment with CUDA 11.3. Distributed training experiments used NCCL-2.9.8.
