@@ -1,15 +1,3 @@
-DISTRIBUTION STATEMENT A. Approved for public release. Distribution is unlimited.
-
-This material is based upon work supported by the Under Secretary of Defense for Research and Engineering under Air Force Contract No. FA8702-15-D-0001. Any opinions, findings, conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the Under Secretary of Defense for Research and Engineering.
-
-© 2023 Massachusetts Institute of Technology.
-
-The software/firmware is provided to you on an As-Is basis
-
-Delivered to the U.S. Government with Unlimited Rights, as defined in DFARS Part 252.227-7013 or 7014 (Feb 2014). Notwithstanding any copyright notice, U.S. Government rights in this work are defined by DFARS 252.227-7013 or DFARS 252.227-7014 as detailed above. Use of this work other than as specifically authorized by the U.S. Government may violate any copyrights that exist in this work.
-
------------------------------------------------
-
 # Robust Fine-Tuning of Vision-Language Models for Domain Generalization
 This repository contains code for the IEEE 2023 paper Robust Fine-Tuning of Vision-Language Models for Domain Generalization, by Kevin Vogt-Lowell, Noah Lee, Theodoros Tsiligkaridis, and Marc Vaillant.
 
@@ -207,3 +195,17 @@ $ python visualize_lim_data_results.py --dataset <dataset name> [--options]
 During visualization, the ID and OOD test results yielded using each model's best learning rate are plotted against the training data percentages listed in `lim_data_config.json`. Each architecture in the config file will have its own line within the plot, and the SWA results for CLIP ViT-B/32 Fine-tuned (E2E) can be included if the appropriate directory is provided using the `--swa-results-dir` parameter.
 
 > :warning: **Note**: Currently, the visualization script only supports plotting of the SWA results for the ViT-B-32 CLIP model fine-tuned end-to-end.
+
+-----------------------------------------------
+
+# Disclaimer
+
+DISTRIBUTION STATEMENT A. Approved for public release. Distribution is unlimited.
+
+This material is based upon work supported by the Under Secretary of Defense for Research and Engineering under Air Force Contract No. FA8702-15-D-0001. Any opinions, findings, conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the Under Secretary of Defense for Research and Engineering.
+
+© 2023 Massachusetts Institute of Technology.
+
+The software/firmware is provided to you on an As-Is basis
+
+Delivered to the U.S. Government with Unlimited Rights, as defined in DFARS Part 252.227-7013 or 7014 (Feb 2014). Notwithstanding any copyright notice, U.S. Government rights in this work are defined by DFARS 252.227-7013 or DFARS 252.227-7014 as detailed above. Use of this work other than as specifically authorized by the U.S. Government may violate any copyrights that exist in this work.
