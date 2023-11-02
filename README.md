@@ -1,5 +1,5 @@
 # Robust Fine-Tuning of Vision-Language Models for Domain Generalization
-This repository contains code for the IEEE 2023 paper Robust Fine-Tuning of Vision-Language Models for Domain Generalization, by Kevin Vogt-Lowell, Noah Lee, Theodoros Tsiligkaridis, and Marc Vaillant.
+This repository contains code for the IEEE 2023 paper [Robust Fine-Tuning of Vision-Language Models for Domain Generalization](https://ieee-hpec.org/wp-content/uploads/2023/09/165.pdf), by Kevin Vogt-Lowell, Noah Lee, Theodoros Tsiligkaridis, and Marc Vaillant.
 
 ## Requirements
 Experiments were run on an Anaconda 2022a environment with CUDA 11.3. Distributed training experiments used NCCL-2.9.8.
